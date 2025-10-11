@@ -1,6 +1,6 @@
 <template>
   <div class="lesson-view" v-if="lesson">
-    <div class="lesson-header">
+    <div class="lesson-header" :style="getHeaderStyle()">
       <div class="container">
         <router-link to="/" class="back-link">← सभी अध्याय</router-link>
         <div class="lesson-title-section">
@@ -147,6 +147,20 @@ export default {
     },
     goToLesson(id) {
       this.$router.push({ name: 'lesson', params: { id } })
+    },
+    getHeaderStyle() {
+      if (!this.lesson) return {}
+      const gradients = {
+        1: 'linear-gradient(135deg, rgba(255, 107, 53, 0.85) 0%, rgba(247, 147, 30, 0.85) 100%)',
+        2: 'linear-gradient(135deg, rgba(76, 175, 80, 0.85) 0%, rgba(129, 199, 132, 0.85) 100%)',
+        3: 'linear-gradient(135deg, rgba(33, 150, 243, 0.85) 0%, rgba(100, 181, 246, 0.85) 100%)',
+        4: 'linear-gradient(135deg, rgba(156, 39, 176, 0.85) 0%, rgba(186, 104, 200, 0.85) 100%)'
+      }
+      return {
+        background: `${gradients[this.lesson.id]}, url('/images/chapter${this.lesson.id}.png')`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center'
+      }
     }
   }
 }
@@ -154,11 +168,12 @@ export default {
 
 <style scoped>
 .lesson-header {
-  background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
   color: white;
   padding: 2rem 0 3rem;
   margin-bottom: 2rem;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
 }
 
 .back-link {

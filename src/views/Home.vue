@@ -68,8 +68,8 @@ export default {
 
 <style scoped>
 .hero {
-  background: linear-gradient(135deg, rgba(255, 107, 53, 0.95) 0%, rgba(247, 147, 30, 0.95) 50%, rgba(255, 107, 53, 0.95) 100%),
-              url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><defs><linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:%23ff6b35;stop-opacity:0.1" /><stop offset="100%" style="stop-color:%23f7931e;stop-opacity:0.1" /></linearGradient></defs><circle cx="100" cy="100" r="80" fill="url(%23grad1)" opacity="0.3"/><circle cx="1100" cy="150" r="100" fill="url(%23grad1)" opacity="0.2"/><circle cx="200" cy="500" r="60" fill="url(%23grad1)" opacity="0.3"/><circle cx="900" cy="450" r="90" fill="url(%23grad1)" opacity="0.2"/><path d="M600,50 Q650,150 600,250 Q550,150 600,50" fill="none" stroke="white" stroke-width="2" opacity="0.1"/><text x="50%" y="50%" text-anchor="middle" fill="white" opacity="0.05" font-size="200" font-family="serif">🕉</text></svg>');
+  background: linear-gradient(135deg, rgba(255, 107, 53, 0.85) 0%, rgba(247, 147, 30, 0.85) 50%, rgba(255, 107, 53, 0.85) 100%),
+              url('/images/hero.png');
   background-size: cover;
   background-position: center;
   color: white;
@@ -165,32 +165,32 @@ export default {
 }
 
 .lesson-image-1 {
-  background: linear-gradient(135deg, rgba(255, 107, 53, 0.7) 0%, rgba(247, 147, 30, 0.7) 100%),
-              url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=400&fit=crop');
+  background: linear-gradient(135deg, rgba(255, 107, 53, 0.5) 0%, rgba(247, 147, 30, 0.5) 100%),
+              url('/images/chapter1.png');
   background-blend-mode: overlay;
   background-size: cover;
   background-position: center;
 }
 
 .lesson-image-2 {
-  background: linear-gradient(135deg, rgba(76, 175, 80, 0.7) 0%, rgba(129, 199, 132, 0.7) 100%),
-              url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&h=400&fit=crop');
+  background: linear-gradient(135deg, rgba(76, 175, 80, 0.5) 0%, rgba(129, 199, 132, 0.5) 100%),
+              url('/images/chapter2.png');
   background-blend-mode: overlay;
   background-size: cover;
   background-position: center;
 }
 
 .lesson-image-3 {
-  background: linear-gradient(135deg, rgba(33, 150, 243, 0.7) 0%, rgba(100, 181, 246, 0.7) 100%),
-              url('https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800&h=400&fit=crop');
+  background: linear-gradient(135deg, rgba(33, 150, 243, 0.5) 0%, rgba(100, 181, 246, 0.5) 100%),
+              url('/images/chapter3.png');
   background-blend-mode: overlay;
   background-size: cover;
   background-position: center;
 }
 
 .lesson-image-4 {
-  background: linear-gradient(135deg, rgba(156, 39, 176, 0.7) 0%, rgba(186, 104, 200, 0.7) 100%),
-              url('https://images.unsplash.com/photo-1465101162946-4377e57745c3?w=800&h=400&fit=crop');
+  background: linear-gradient(135deg, rgba(156, 39, 176, 0.5) 0%, rgba(186, 104, 200, 0.5) 100%),
+              url('/images/chapter4.png');
   background-blend-mode: overlay;
   background-size: cover;
   background-position: center;
