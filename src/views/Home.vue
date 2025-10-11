@@ -165,23 +165,31 @@ export default {
 }
 
 .lesson-image-1 {
-  background: linear-gradient(135deg, rgba(255, 107, 53, 0.9), rgba(247, 147, 30, 0.9)),
-              url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400"><defs><pattern id="grid1" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="white" stroke-width="0.5" opacity="0.1"/></pattern></defs><rect width="800" height="400" fill="url(%23grid1)"/><circle cx="400" cy="200" r="80" fill="none" stroke="white" stroke-width="3" opacity="0.3"/><path d="M 400 120 L 400 280 M 320 200 L 480 200" stroke="white" stroke-width="3" opacity="0.3"/><text x="400" y="350" text-anchor="middle" fill="white" opacity="0.4" font-size="60" font-weight="bold">मोह</text></svg>');
+  background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%),
+              url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400"><defs><linearGradient id="sky1" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" style="stop-color:%23ff8c42;stop-opacity:0.3"/><stop offset="100%" style="stop-color:%23ff6b35;stop-opacity:0.5"/></linearGradient></defs><rect fill="url(%23sky1)" width="800" height="400"/><ellipse cx="400" cy="350" rx="300" ry="80" fill="%23d45d2a" opacity="0.2"/><path d="M 200 250 Q 250 200 300 250 T 400 250 Q 450 200 500 250 T 600 250" stroke="%23ffffff" stroke-width="3" fill="none" opacity="0.4"/><circle cx="300" cy="150" r="30" fill="%23ffffff" opacity="0.15"/><circle cx="320" cy="140" r="35" fill="%23ffffff" opacity="0.15"/><circle cx="340" cy="155" r="25" fill="%23ffffff" opacity="0.15"/><circle cx="500" cy="120" r="25" fill="%23ffffff" opacity="0.12"/><circle cx="515" cy="110" r="30" fill="%23ffffff" opacity="0.12"/><path d="M 350 300 L 370 260 L 390 300 L 410 270 L 430 300 L 450 280" stroke="%23d45d2a" stroke-width="4" fill="none" opacity="0.3"/></svg>');
+  background-blend-mode: overlay;
+  background-size: cover;
 }
 
 .lesson-image-2 {
-  background: linear-gradient(135deg, rgba(76, 175, 80, 0.9), rgba(129, 199, 132, 0.9)),
-              url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400"><defs><linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:white;stop-opacity:0.2"/><stop offset="100%" style="stop-color:white;stop-opacity:0"/></linearGradient></defs><rect width="800" height="400" fill="url(%23grad2)"/><path d="M 100 300 Q 250 150 400 250 T 700 200" stroke="white" stroke-width="4" fill="none" opacity="0.4"/><circle cx="400" cy="100" r="60" fill="white" opacity="0.2"/><text x="400" y="360" text-anchor="middle" fill="white" opacity="0.4" font-size="50" font-weight="bold">परिस्थिति</text></svg>');
+  background: linear-gradient(135deg, #4caf50 0%, #81c784 100%),
+              url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400"><defs><linearGradient id="nature1" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" style="stop-color:%2366bb6a;stop-opacity:0.3"/><stop offset="100%" style="stop-color:%234caf50;stop-opacity:0.5"/></linearGradient></defs><rect fill="url(%23nature1)" width="800" height="400"/><ellipse cx="400" cy="380" rx="350" ry="50" fill="%23388e3c" opacity="0.2"/><path d="M 100 300 Q 150 280 200 300" fill="%232e7d32" opacity="0.3"/><path d="M 200 300 Q 300 250 400 300" fill="%232e7d32" opacity="0.3"/><path d="M 400 300 Q 500 270 600 300" fill="%232e7d32" opacity="0.3"/><path d="M 600 300 Q 650 290 700 300" fill="%232e7d32" opacity="0.3"/><circle cx="150" cy="180" r="40" fill="%23ffffff" opacity="0.1"/><circle cx="180" cy="160" r="50" fill="%23ffffff" opacity="0.12"/><circle cx="210" cy="185" r="35" fill="%23ffffff" opacity="0.1"/><ellipse cx="500" cy="200" rx="60" ry="40" fill="%23ffffff" opacity="0.08"/><path d="M 350 250 L 360 220 L 350 190 L 340 220 Z" fill="%23ffffff" opacity="0.15"/><path d="M 450 230 L 460 200 L 450 170 L 440 200 Z" fill="%23ffffff" opacity="0.15"/></svg>');
+  background-blend-mode: overlay;
+  background-size: cover;
 }
 
 .lesson-image-3 {
-  background: linear-gradient(135deg, rgba(33, 150, 243, 0.9), rgba(100, 181, 246, 0.9)),
-              url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400"><defs><radialGradient id="rad3"><stop offset="0%" style="stop-color:white;stop-opacity:0.3"/><stop offset="100%" style="stop-color:white;stop-opacity:0"/></radialGradient></defs><rect width="800" height="400" fill="url(%23rad3)"/><circle cx="400" cy="200" r="100" fill="none" stroke="white" stroke-width="2" opacity="0.3"/><circle cx="400" cy="200" r="60" fill="none" stroke="white" stroke-width="2" opacity="0.4"/><circle cx="400" cy="200" r="20" fill="white" opacity="0.5"/><text x="400" y="360" text-anchor="middle" fill="white" opacity="0.4" font-size="50" font-weight="bold">नित्य-अनित्य</text></svg>');
+  background: linear-gradient(135deg, #2196f3 0%, #64b5f6 100%),
+              url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400"><defs><radialGradient id="water1" cx="50%" cy="50%"><stop offset="0%" style="stop-color:%2364b5f6;stop-opacity:0.3"/><stop offset="100%" style="stop-color:%232196f3;stop-opacity:0.5"/></radialGradient></defs><rect fill="url(%23water1)" width="800" height="400"/><circle cx="400" cy="200" r="120" fill="none" stroke="%23ffffff" stroke-width="2" opacity="0.15"/><circle cx="400" cy="200" r="90" fill="none" stroke="%23ffffff" stroke-width="2" opacity="0.2"/><circle cx="400" cy="200" r="60" fill="none" stroke="%23ffffff" stroke-width="2" opacity="0.25"/><circle cx="400" cy="200" r="30" fill="%23ffffff" opacity="0.2"/><path d="M 200 150 Q 250 120 300 150 T 400 150" stroke="%23ffffff" stroke-width="2" fill="none" opacity="0.2"/><path d="M 400 150 Q 450 120 500 150 T 600 150" stroke="%23ffffff" stroke-width="2" fill="none" opacity="0.2"/><path d="M 200 250 Q 250 280 300 250 T 400 250" stroke="%23ffffff" stroke-width="2" fill="none" opacity="0.2"/><path d="M 400 250 Q 450 280 500 250 T 600 250" stroke="%23ffffff" stroke-width="2" fill="none" opacity="0.2"/><circle cx="250" cy="100" r="15" fill="%23ffffff" opacity="0.15"/><circle cx="550" cy="300" r="20" fill="%23ffffff" opacity="0.15"/><circle cx="150" cy="280" r="18" fill="%23ffffff" opacity="0.12"/></svg>');
+  background-blend-mode: overlay;
+  background-size: cover;
 }
 
 .lesson-image-4 {
-  background: linear-gradient(135deg, rgba(156, 39, 176, 0.9), rgba(186, 104, 200, 0.9)),
-              url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400"><defs><pattern id="dots4" width="30" height="30" patternUnits="userSpaceOnUse"><circle cx="15" cy="15" r="2" fill="white" opacity="0.2"/></pattern></defs><rect width="800" height="400" fill="url(%23dots4)"/><path d="M 200 300 L 400 100 L 600 300" stroke="white" stroke-width="4" fill="none" opacity="0.4"/><polygon points="400,120 420,180 480,190 430,230 440,290 400,260 360,290 370,230 320,190 380,180" fill="white" opacity="0.3"/><text x="400" y="360" text-anchor="middle" fill="white" opacity="0.4" font-size="45" font-weight="bold">उद्देश्य परिवर्तन</text></svg>');
+  background: linear-gradient(135deg, #9c27b0 0%, #ba68c8 100%),
+              url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400"><defs><linearGradient id="sky2" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" style="stop-color:%23ba68c8;stop-opacity:0.3"/><stop offset="100%" style="stop-color:%239c27b0;stop-opacity:0.5"/></linearGradient></defs><rect fill="url(%23sky2)" width="800" height="400"/><path d="M 0 320 Q 100 300 200 320 T 400 320 Q 500 300 600 320 T 800 320 L 800 400 L 0 400 Z" fill="%237b1fa2" opacity="0.2"/><polygon points="350,280 380,240 410,280" fill="%23ffffff" opacity="0.15"/><polygon points="320,300 340,270 360,300" fill="%23ffffff" opacity="0.12"/><polygon points="380,310 395,285 410,310" fill="%23ffffff" opacity="0.12"/><polygon points="440,290 465,250 490,290" fill="%23ffffff" opacity="0.15"/><polygon points="420,310 435,285 450,310" fill="%23ffffff" opacity="0.1"/><path d="M 400 150 L 410 180 L 440 185 L 415 205 L 420 235 L 400 220 L 380 235 L 385 205 L 360 185 L 390 180 Z" fill="%23ffffff" opacity="0.2"/><circle cx="300" cy="120" r="8" fill="%23ffffff" opacity="0.3"/><circle cx="320" cy="110" r="6" fill="%23ffffff" opacity="0.25"/><circle cx="340" cy="105" r="7" fill="%23ffffff" opacity="0.28"/><circle cx="500" cy="130" r="9" fill="%23ffffff" opacity="0.3"/><circle cx="520" cy="115" r="6" fill="%23ffffff" opacity="0.25"/></svg>');
+  background-blend-mode: overlay;
+  background-size: cover;
 }
 
 .lesson-card:hover .lesson-image {
@@ -220,18 +228,25 @@ export default {
 
 .lesson-number {
   position: absolute;
-  top: 1rem;
-  right: 1rem;
-  background: rgba(255, 255, 255, 0.95);
-  color: var(--primary-color);
-  padding: 0.6rem 1.2rem;
-  border-radius: 25px;
+  top: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: transparent;
+  color: white;
+  padding: 0;
+  border: none;
   font-weight: 700;
-  font-size: 0.95rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  font-size: 1.1rem;
+  box-shadow: none;
   z-index: 10;
-  backdrop-filter: blur(10px);
-  border: 2px solid white;
+  transition: all 0.3s ease;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+.lesson-card:hover .lesson-number {
+  transform: translateX(-50%) scale(1.05);
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7);
 }
 
 .lesson-card h2 {
