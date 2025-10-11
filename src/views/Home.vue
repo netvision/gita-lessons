@@ -165,31 +165,35 @@ export default {
 }
 
 .lesson-image-1 {
-  background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%),
-              url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400"><defs><linearGradient id="sky1" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" style="stop-color:%23ff8c42;stop-opacity:0.3"/><stop offset="100%" style="stop-color:%23ff6b35;stop-opacity:0.5"/></linearGradient></defs><rect fill="url(%23sky1)" width="800" height="400"/><ellipse cx="400" cy="350" rx="300" ry="80" fill="%23d45d2a" opacity="0.2"/><path d="M 200 250 Q 250 200 300 250 T 400 250 Q 450 200 500 250 T 600 250" stroke="%23ffffff" stroke-width="3" fill="none" opacity="0.4"/><circle cx="300" cy="150" r="30" fill="%23ffffff" opacity="0.15"/><circle cx="320" cy="140" r="35" fill="%23ffffff" opacity="0.15"/><circle cx="340" cy="155" r="25" fill="%23ffffff" opacity="0.15"/><circle cx="500" cy="120" r="25" fill="%23ffffff" opacity="0.12"/><circle cx="515" cy="110" r="30" fill="%23ffffff" opacity="0.12"/><path d="M 350 300 L 370 260 L 390 300 L 410 270 L 430 300 L 450 280" stroke="%23d45d2a" stroke-width="4" fill="none" opacity="0.3"/></svg>');
+  background: linear-gradient(135deg, rgba(255, 107, 53, 0.7) 0%, rgba(247, 147, 30, 0.7) 100%),
+              url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=400&fit=crop');
   background-blend-mode: overlay;
   background-size: cover;
+  background-position: center;
 }
 
 .lesson-image-2 {
-  background: linear-gradient(135deg, #4caf50 0%, #81c784 100%),
-              url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400"><defs><linearGradient id="nature1" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" style="stop-color:%2366bb6a;stop-opacity:0.3"/><stop offset="100%" style="stop-color:%234caf50;stop-opacity:0.5"/></linearGradient></defs><rect fill="url(%23nature1)" width="800" height="400"/><ellipse cx="400" cy="380" rx="350" ry="50" fill="%23388e3c" opacity="0.2"/><path d="M 100 300 Q 150 280 200 300" fill="%232e7d32" opacity="0.3"/><path d="M 200 300 Q 300 250 400 300" fill="%232e7d32" opacity="0.3"/><path d="M 400 300 Q 500 270 600 300" fill="%232e7d32" opacity="0.3"/><path d="M 600 300 Q 650 290 700 300" fill="%232e7d32" opacity="0.3"/><circle cx="150" cy="180" r="40" fill="%23ffffff" opacity="0.1"/><circle cx="180" cy="160" r="50" fill="%23ffffff" opacity="0.12"/><circle cx="210" cy="185" r="35" fill="%23ffffff" opacity="0.1"/><ellipse cx="500" cy="200" rx="60" ry="40" fill="%23ffffff" opacity="0.08"/><path d="M 350 250 L 360 220 L 350 190 L 340 220 Z" fill="%23ffffff" opacity="0.15"/><path d="M 450 230 L 460 200 L 450 170 L 440 200 Z" fill="%23ffffff" opacity="0.15"/></svg>');
+  background: linear-gradient(135deg, rgba(76, 175, 80, 0.7) 0%, rgba(129, 199, 132, 0.7) 100%),
+              url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&h=400&fit=crop');
   background-blend-mode: overlay;
   background-size: cover;
+  background-position: center;
 }
 
 .lesson-image-3 {
-  background: linear-gradient(135deg, #2196f3 0%, #64b5f6 100%),
-              url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400"><defs><radialGradient id="water1" cx="50%" cy="50%"><stop offset="0%" style="stop-color:%2364b5f6;stop-opacity:0.3"/><stop offset="100%" style="stop-color:%232196f3;stop-opacity:0.5"/></radialGradient></defs><rect fill="url(%23water1)" width="800" height="400"/><circle cx="400" cy="200" r="120" fill="none" stroke="%23ffffff" stroke-width="2" opacity="0.15"/><circle cx="400" cy="200" r="90" fill="none" stroke="%23ffffff" stroke-width="2" opacity="0.2"/><circle cx="400" cy="200" r="60" fill="none" stroke="%23ffffff" stroke-width="2" opacity="0.25"/><circle cx="400" cy="200" r="30" fill="%23ffffff" opacity="0.2"/><path d="M 200 150 Q 250 120 300 150 T 400 150" stroke="%23ffffff" stroke-width="2" fill="none" opacity="0.2"/><path d="M 400 150 Q 450 120 500 150 T 600 150" stroke="%23ffffff" stroke-width="2" fill="none" opacity="0.2"/><path d="M 200 250 Q 250 280 300 250 T 400 250" stroke="%23ffffff" stroke-width="2" fill="none" opacity="0.2"/><path d="M 400 250 Q 450 280 500 250 T 600 250" stroke="%23ffffff" stroke-width="2" fill="none" opacity="0.2"/><circle cx="250" cy="100" r="15" fill="%23ffffff" opacity="0.15"/><circle cx="550" cy="300" r="20" fill="%23ffffff" opacity="0.15"/><circle cx="150" cy="280" r="18" fill="%23ffffff" opacity="0.12"/></svg>');
+  background: linear-gradient(135deg, rgba(33, 150, 243, 0.7) 0%, rgba(100, 181, 246, 0.7) 100%),
+              url('https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800&h=400&fit=crop');
   background-blend-mode: overlay;
   background-size: cover;
+  background-position: center;
 }
 
 .lesson-image-4 {
-  background: linear-gradient(135deg, #9c27b0 0%, #ba68c8 100%),
-              url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400"><defs><linearGradient id="sky2" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" style="stop-color:%23ba68c8;stop-opacity:0.3"/><stop offset="100%" style="stop-color:%239c27b0;stop-opacity:0.5"/></linearGradient></defs><rect fill="url(%23sky2)" width="800" height="400"/><path d="M 0 320 Q 100 300 200 320 T 400 320 Q 500 300 600 320 T 800 320 L 800 400 L 0 400 Z" fill="%237b1fa2" opacity="0.2"/><polygon points="350,280 380,240 410,280" fill="%23ffffff" opacity="0.15"/><polygon points="320,300 340,270 360,300" fill="%23ffffff" opacity="0.12"/><polygon points="380,310 395,285 410,310" fill="%23ffffff" opacity="0.12"/><polygon points="440,290 465,250 490,290" fill="%23ffffff" opacity="0.15"/><polygon points="420,310 435,285 450,310" fill="%23ffffff" opacity="0.1"/><path d="M 400 150 L 410 180 L 440 185 L 415 205 L 420 235 L 400 220 L 380 235 L 385 205 L 360 185 L 390 180 Z" fill="%23ffffff" opacity="0.2"/><circle cx="300" cy="120" r="8" fill="%23ffffff" opacity="0.3"/><circle cx="320" cy="110" r="6" fill="%23ffffff" opacity="0.25"/><circle cx="340" cy="105" r="7" fill="%23ffffff" opacity="0.28"/><circle cx="500" cy="130" r="9" fill="%23ffffff" opacity="0.3"/><circle cx="520" cy="115" r="6" fill="%23ffffff" opacity="0.25"/></svg>');
+  background: linear-gradient(135deg, rgba(156, 39, 176, 0.7) 0%, rgba(186, 104, 200, 0.7) 100%),
+              url('https://images.unsplash.com/photo-1465101162946-4377e57745c3?w=800&h=400&fit=crop');
   background-blend-mode: overlay;
   background-size: cover;
+  background-position: center;
 }
 
 .lesson-card:hover .lesson-image {
