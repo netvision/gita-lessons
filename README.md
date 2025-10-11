@@ -31,6 +31,56 @@
 - **Noto Sans Devanagari** - सुंदर हिंदी फ़ॉन्ट
 - **Tiro Devanagari Hindi** - संस्कृत श्लोकों के लिए
 
+## Deployment to GitHub Pages
+
+### Setup Steps:
+
+1. **Create a GitHub Repository:**
+   - Go to GitHub.com and create a new repository
+   - Name it `gita-lessons` (or any name you prefer)
+   - Don't initialize with README (we already have one)
+
+2. **Link Your Local Repository to GitHub:**
+   ```bash
+   git remote add origin https://github.com/YOUR_USERNAME/gita-lessons.git
+   git branch -M main
+   git push -u origin main
+   ```
+
+3. **Enable GitHub Pages:**
+   - Go to your repository on GitHub
+   - Click **Settings** → **Pages**
+   - Under "Build and deployment":
+     - Source: Select **GitHub Actions**
+   - Save the settings
+
+4. **Automatic Deployment:**
+   - The workflow is already configured in `.github/workflows/deploy.yml`
+   - Every push to `main` branch will automatically build and deploy
+   - Your site will be live at: `https://YOUR_USERNAME.github.io/gita-lessons/`
+
+### Manual Deployment Commands:
+
+If you want to deploy manually:
+
+```bash
+# Build the project
+npm run build
+
+# The dist folder contains your production files
+```
+
+### Update Base Path (if needed):
+
+If your repository name is different from `gita-lessons`, update `vite.config.js`:
+
+```javascript
+export default defineConfig({
+  base: '/YOUR_REPO_NAME/',
+  // ... other config
+})
+```
+
 ## इंस्टॉलेशन और सेटअप
 
 ### आवश्यकताएं
