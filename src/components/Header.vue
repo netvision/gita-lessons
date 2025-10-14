@@ -4,13 +4,20 @@
       <div class="header-content">
         <div class="logo">
           <router-link to="/">
+            <div class="school-branding">
+              <img src="/images/dvm-logo.png" alt="Dalmia Vidya Mandir" class="school-logo">
+              <span class="school-name">Dalmia Vidya Mandir</span>
+            </div>
             <h1>🕉️ श्रीमद्भगवद्गीता</h1>
             <p class="subtitle">जीवन कौशल के अध्याय</p>
           </router-link>
         </div>
         <nav class="nav">
+          <a href="https://www.dalmiavidyamandir.org.in" target="_blank" class="nav-link school-link">
+            <img src="/images/dvm-logo.png" alt="DVM" class="nav-school-logo">
+            <span>स्कूल वेबसाइट</span>
+          </a>
           <router-link to="/" class="nav-link">मुख्य पृष्ठ</router-link>
-          <button class="nav-link" @click="showSearch">खोजें</button>
         </nav>
       </div>
     </div>
@@ -50,6 +57,30 @@ export default {
   color: white;
 }
 
+.school-branding {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.school-logo {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+}
+
+.school-name {
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 0.25rem 0.75rem;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
 .logo h1 {
   color: white;
   font-size: 1.8rem;
@@ -80,6 +111,24 @@ export default {
   cursor: pointer;
   font-family: 'Noto Sans Devanagari', sans-serif;
   font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.school-link {
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.nav-school-logo {
+  height: 20px;
+  width: auto;
+  object-fit: contain;
+}
+
+.school-icon {
+  font-size: 1.1rem;
 }
 
 .nav-link:hover {

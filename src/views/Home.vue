@@ -30,6 +30,23 @@
       </div>
 
       <div class="info-section">
+        <div class="card school-intro">
+          <div class="school-intro-content">
+            <div class="school-logo-section">
+              <img src="/images/dvm-logo.png" alt="Dalmia Vidya Mandir" class="home-school-logo">
+              <h2>Dalmia Vidya Mandir</h2>
+              <p class="school-subtitle">Empowering Minds, Enriching Lives</p>
+            </div>
+            <p class="school-description">
+              डाल्मिया विद्या मंदिर में, हम विद्यार्थियों को केवल शैक्षणिक ज्ञान ही नहीं, बल्कि जीवन कौशल और नैतिक मूल्यों की शिक्षा भी प्रदान करते हैं। 
+              श्रीमद्भगवद्गीता के ये अध्याय विद्यार्थियों के व्यक्तित्व विकास और चरित्र निर्माण में सहायक हैं।
+            </p>
+            <a href="https://www.dalmiavidyamandir.org.in" target="_blank" class="school-website-btn">
+              Visit Our Website →
+            </a>
+          </div>
+        </div>
+        
         <div class="card">
           <h2>🙏 विद्यार्थियों के लिए इन अध्यायों के बारे में</h2>
           <p>
@@ -320,6 +337,75 @@ export default {
   color: var(--text-secondary);
   margin-bottom: 1.5rem;
   line-height: 1.8;
+}
+
+.school-intro {
+  background: linear-gradient(135deg, #fff5e6 0%, #ffe8d6 100%);
+  border: 2px solid var(--primary-color);
+  margin-bottom: 2rem;
+}
+
+.school-intro-content {
+  text-align: center;
+}
+
+.school-logo-section {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid rgba(255, 107, 53, 0.2);
+}
+
+.home-school-logo {
+  height: 100px;
+  width: auto;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.school-icon-large {
+  font-size: 4rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.school-logo-section h2 {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.school-subtitle {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  font-style: italic;
+  margin: 0;
+}
+
+.school-description {
+  font-size: 1.15rem;
+  line-height: 1.9;
+  color: var(--text-primary);
+  margin: 1.5rem 0;
+  text-align: justify;
+}
+
+.school-website-btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3);
+}
+
+.school-website-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(255, 107, 53, 0.4);
 }
 
 .features-list {
