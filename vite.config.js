@@ -1,10 +1,10 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
-// Use environment variable or default to /gita-lessons/ for GitHub Pages
+// Using custom domain, so base path is root
 export default defineConfig({
   plugins: [vue()],
-  base: process.env.NODE_ENV === 'production' ? '/gita-lessons/' : '/',
+  base: '/',
   server: {
     port: 3000
   }
