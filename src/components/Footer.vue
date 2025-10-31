@@ -9,9 +9,9 @@
         </div>
         <div class="footer-section school-info">
           <div class="school-badge">
-            <img src="/images/dvm-logo.png" alt="Dalmia Vidya Mandir" class="footer-school-logo">
+            <img src="/images/dvm-logo.png" alt="Dalmia Vidya Mandir, Chirawa" class="footer-school-logo">
             <div>
-              <h4>Dalmia Vidya Mandir</h4>
+              <h4>Dalmia Vidya Mandir, Chirawa</h4>
               <p class="school-tagline">Empowering Minds, Enriching Lives</p>
             </div>
           </div>
@@ -21,7 +21,7 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <p>&copy; 2025 Dalmia Vidya Mandir. All rights reserved.</p>
+        <p>&copy; 2025 Dalmia Vidya Mandir, Chirawa. All rights reserved.</p>
         <p class="footer-credit">श्रीमद्भगवद्गीता - जीवन कौशल के अध्याय</p>
       </div>
     </div>
@@ -118,7 +118,6 @@ export default {
   font-family: 'Tiro Devanagari Hindi', serif;
   font-style: italic;
   font-size: 1.1rem;
-  line-height: 2;
 }
 
 .quote-translation {
